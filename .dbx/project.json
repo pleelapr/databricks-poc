@@ -1,0 +1,9 @@
+{
+    "environments": {
+        "default": {
+            "profile": "pleelaprachakul@headstorm.com",
+            "workspace_dir": "/Shared/dbx/projects/dbx-getting-started",
+            "artifact_location": "dbfs:/dbx/dbx-getting-started"
+        }
+    }
+}
