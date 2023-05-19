@@ -1,9 +1,13 @@
 {
     "environments": {
-        "default": {
-            "profile": "pleelaprachakul@headstorm.com",
-            "workspace_dir": "/Shared/dbx/projects/dbx-getting-started",
-            "artifact_location": "dbfs:/dbx/dbx-getting-started"
+      "default": {
+        "profile": "pleelaprachakul@headstorm.com",
+        "storage_type": "mlflow",
+        "properties": {
+          "workspace_directory": "/Shared/dbx/databricks-poc",
+          "artifact_location": "dbfs:/Shared/dbx/projects/databricks-poc"
         }
-    }
-}
+      }
+    },
+    "inplace_jinja_support": false
+  }
