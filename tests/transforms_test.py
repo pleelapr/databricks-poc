@@ -1,7 +1,7 @@
 import sys
 import os
 
-sys.path.append(os.path.abspath(__file__))
+sys.path.append(os.path.abspath("/Workspace/Repos/databricks-poc/databricks-poc"))
 
 # Test each of the transform functions.
 import pytest
