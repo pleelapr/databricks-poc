@@ -1,3 +1,8 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(__file__))
+
 # Test each of the transform functions.
 import pytest
 import pandas as pd
@@ -9,7 +14,7 @@ def raw_input_df() -> pd.DataFrame:
     """
     Create a basic version of the input dataset for testing, including NaNs.
     """
-    return pd.read_csv('tests/testdata.csv')
+    return pd.read_csv("tests/testdata.csv")
 
 
 @pytest.fixture
